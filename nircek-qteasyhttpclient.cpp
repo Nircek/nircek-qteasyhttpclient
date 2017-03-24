@@ -1,3 +1,5 @@
+#ifndef NIRCEK_QTEASYHTTPCLIENT_CPP
+#define NIRCEK_QTEASYHTTPCLIENT_CPP
 #include <QObject>
 #include <QApplication>
 #include <QString>
@@ -35,6 +37,4 @@ QString qteasyhttpclient(QString uri,QObject *parent=nullptr){
     return networkReply->readAll();
     return QString("/%1").arg(status);
 }
-
-
-
+#endif // NIRCEK__QTEASYHTTPCLIENT
