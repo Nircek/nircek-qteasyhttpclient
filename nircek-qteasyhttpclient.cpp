@@ -2,6 +2,7 @@
 QString GitHub::Nircek::qteasyhttpclient(QString uri,QObject *parent){
     //  https://github.com/Nircek/nircek-qteasyhttpclient
     //inspired by https://github.com/bidstack/bidstack-http/
+    QLoggingCategory::setFilterRules("qt.network.ssl.warning=false");
     QNetworkAccessManager *qnam = new QNetworkAccessManager();
     QNetworkRequest networkRequest(uri);
     networkRequest.setRawHeader(QString("Accept").toUtf8(),

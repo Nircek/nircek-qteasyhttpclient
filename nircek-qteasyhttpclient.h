@@ -8,6 +8,7 @@
 #include <QTimer>
 #include <QEventLoop>
 #include <QNetworkReply>
+#include <QLoggingCategory>
 namespace GitHub {
     namespace Nircek {
         QString qteasyhttpclient(QString uri,QObject *parent=nullptr);
