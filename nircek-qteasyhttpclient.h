@@ -1,5 +1,10 @@
 #ifndef NIRCEKQTEASYHTTPCLIENT_H
 #define NIRCEKQTEASYHTTPCLIENT_H
+/*
+You must add this lines to your .pro file:
+QT+=network
+QT+=widgets
+*/
 #include <QObject>
 #include <QApplication>
 #include <QString>

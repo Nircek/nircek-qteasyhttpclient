@@ -7,6 +7,11 @@
 #include <QEventLoop>
 #include <QNetworkReply>
 #include <QLoggingCategory>
+/*
+You must add this lines to your .pro file:
+QT+=network
+QT+=widgets
+*/
 
 
 
